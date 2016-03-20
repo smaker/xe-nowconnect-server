@@ -16,7 +16,7 @@ class Users extends REST_Controller
 		// MongoDB connect
 		try
 		{
-			$this->rest->db = new MongoClient('mongodb://localhost:27017', array('username' => '', 'password' => ''));
+			$this->rest->db = new MongoClient('mongodb://localhost:27017', array('username' => 'ncxe_api', 'password' => 'ncxeapi_kdw1102'));
 		}
 		catch(MongoConnectionException $e)
 		{
@@ -147,7 +147,7 @@ class Users extends REST_Controller
 		// MongoDB connect
 		try
 		{
-			$this->rest->db = new MongoClient('mongodb://localhost:27017', array('username' => '', 'password' => ''));
+			$this->rest->db = new MongoClient('mongodb://localhost:27017', array('username' => 'ncxe_api', 'password' => 'ncxeapi_kdw1102'));
 		}
 		catch(MongoConnectionException $e)
 		{

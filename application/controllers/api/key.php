@@ -33,7 +33,7 @@ class Key extends REST_Controller
 		if(!isset($this->rest->db))
 		{
 			$this->rest = new stdClass;
-			$this->rest->db = new MongoClient('mongodb://userid:password@localhost:27017');
+			$this->rest->db = new MongoClient('mongodb://ncxe_api:ncxeapi_kdw1102@localhost:27017');
 		}
 	}
 
